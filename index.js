@@ -37,3 +37,9 @@ function prependKitten() {
   return (firstKitten.concat(kittens));
 }
 prependKitten()
+
+var kittens = ['Milo', 'Otis', 'Garfield'];
+function removeLastKitten() {
+  kittens.slice(0, kittens.length - 1)
+}
+removeLastKitten()
