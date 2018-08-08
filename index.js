@@ -32,7 +32,7 @@ function appendKitten() {
 appendKitten()
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
-var moreKittens = ['Broom'];
+var moreKittens = ['Arnold'];
 function prependKitten() {
   return (moreKittens.concat(kittens));
 }
