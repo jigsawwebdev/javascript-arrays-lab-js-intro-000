@@ -32,8 +32,8 @@ function appendKitten() {
 appendKitten()
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
-var moreKittens = ['Arnold'];
+var firstKitten = ['Arnold'];
 function prependKitten() {
-  return (moreKittens.concat(kittens));
+  return (firstKitten.concat(kittens));
 }
 prependKitten()
