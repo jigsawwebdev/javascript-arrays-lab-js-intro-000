@@ -11,3 +11,9 @@ function destructivelyPrependKitten() {
   kittens.unshift('Bob');
 }
 destructivelyPrependKitten()
+
+var kittens = ['Milo', 'Otis', 'Garfield'];
+function destructivelyRemoveLastKitten() {
+  kittens.shift();
+}
+destructivelyRemoveLastKitten()
