@@ -26,8 +26,8 @@ destructivelyRemoveFirstKitten()
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
 var moreKittens;
-function appendKitten() {
-  moreKittens = kittens.splice(3, 1, 'Broom');
+function appendKitten(x) {
+  moreKittens = kittens.splice(3, 1, x);
   return moreKittens
 }
-appendKitten()
+appendKitten('Broom')
