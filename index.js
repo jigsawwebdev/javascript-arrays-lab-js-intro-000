@@ -30,10 +30,3 @@ function appendKitten() {
   return (kittens.concat(moreKittens));
 }
 appendKitten()
-
-var kittens = ['Milo', 'Otis', 'Garfield'];
-var moreKittens = ['Arnold'];
-function prependKitten() {
-  return (moreKittens.concat(kittens));
-}
-prependKitten()
